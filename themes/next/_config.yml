@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Marzlia"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -48,12 +48,12 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  about: /about/
+  #categories: /categories/
+  #about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
-  #commonweal: /404/
+  commonweal: heartbeat
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -127,7 +127,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar:https://avatars0.githubusercontent.com/u/2350264?s=400&u=d92f7a2cf580786df46aa76f05f2fdb60dac0b93&v=4
 
 # Table Of Contents in the Sidebar
 toc:
@@ -190,7 +190,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
