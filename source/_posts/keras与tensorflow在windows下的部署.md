@@ -9,7 +9,7 @@ tags: tensorflow
 ### 0x01 : 安装 Anaconda (Python 3.6 版本) 
 <a href="https://www.continuum.io/downloads" target="_blank">下载</a>
 
-<p align="center"><img width=70% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/anaconda_windows_installation.png"></p>
+![](https://raw.githubusercontent.com/antoniosehk/keras-tensorflow-windows-installation/master/cuda8_windows7_local_installation.png)
 
 ### 0x02: 升级 Anaconda
 打开 Anaconda 软件运行以下的命令
@@ -21,16 +21,16 @@ conda update --all
 ### 0x03: 安装 CUDA Tookit 8.0 
 <a href="https://developer.nvidia.com/cuda-downloads" target="_blank">下载</a>
 
-Choose your version depending on your Operating System
+选择你的操作系统对应的版本
 
-<p align="center"><img width=70% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/cuda8_windows7_local_installation.png"></p>
+![](https://raw.githubusercontent.com/antoniosehk/keras-tensorflow-windows-installation/master/cuda8_windows7_local_installation.png)
 
 ### 0x04: 下载 cuDNN 
 <a href="https://developer.nvidia.com/rdp/cudnn-download" target="_blank">Download</a>
 
 选择你对应操作系统的版本，此处需要注册才能下载。
+![](https://raw.githubusercontent.com/antoniosehk/keras-tensorflow-windows-installation/master/cuDNN_windows_download.png)
 
-<p align="center"><img width=70% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/cuDNN_windows_download.png"></p>
 
 解压到你所需要的磁盘目录下: 
 ```Command Prompt
@@ -74,7 +74,7 @@ pip install keras
 ```
 
 ### Step 10: 测试
-去下载以下实例进行测试 <a href="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py">mnist_mlp.py</a> 
+去下载以下实例进行测试 <a href="https://raw.githubusercontent.com.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/examples/mnist_mlp.py">mnist_mlp.py</a> 
 
 
 ```Command Prompt
@@ -82,5 +82,4 @@ activate tensorflow
 python mnist_mlp.py
 ```
 恭喜 ! 你成功的在widows下利用GPU运行 Keras (with Tensorflow backend)  !
-
-<p align="left"><img width=100% src="https://github.com/antoniosehk/keras-tensorflow-windows-installation/blob/master/installation_success.png"></p>
+![](https://raw.githubusercontent.com/antoniosehk/keras-tensorflow-windows-installation/master/installation_success.png)
