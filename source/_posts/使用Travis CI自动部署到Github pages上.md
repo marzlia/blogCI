@@ -1,3 +1,9 @@
+---
+title: 使用Travis CI自动部署到Github pages上
+date: 2017-10-26 17:04:12
+tags: Travis CI
+---
+
 # 什么是Travis CI
 
 > Travis CI 是目前新兴的开源持续集成构建项目，它与jenkins，GO的很明显的特别在于采用yaml格式，同时他是在在线的服务，不像jenkins需要你本地打架服务器，
@@ -18,4 +24,6 @@
 参考这里[.travis.yml](https://github.com/marzlia/blogCI/blob/master/.travis.yml)
 
 注意的是在这里[Online YAML Parser](http://yaml-online-parser.appspot.com/)可以验证你的yml 文件的正确性。
+
+
 

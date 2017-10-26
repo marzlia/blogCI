@@ -6,7 +6,7 @@
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "Marzlia"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -48,10 +48,10 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  about: /about/
+  #categories: /categories/
   archives: /archives/
   tags: /tags/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404/
 
@@ -127,7 +127,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://wx3.sinaimg.cn/large/6780876dgy1fkvuel8687j2050050glr.jpg
 
 # Table Of Contents in the Sidebar
 toc:
