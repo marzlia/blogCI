@@ -51,9 +51,9 @@ menu:
   #categories: /categories/
   archives: /archives/
   tags: /tags/
-  about: /about/
+  #about: /about/
   #sitemap: /sitemap.xml
-  #commonweal: /404/
+  #commonweal: heartbeat
 
 # Enable/Disable menu icons.
 # Icon Mapping:
@@ -129,6 +129,7 @@ social_icons:
 # in site  directory(source/uploads): /uploads/avatar.jpg
 avatar: https://wx3.sinaimg.cn/large/6780876dgy1fkvuel8687j2050050glr.jpg
 
+
 # Table Of Contents in the Sidebar
 toc:
   enable: true
@@ -190,7 +191,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
